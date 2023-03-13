@@ -30,8 +30,8 @@
     "template": "blog"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
+    "node": "18.x.x",
+    "yarn": "1.22.x"
   },
   "license": "MIT"
 }
