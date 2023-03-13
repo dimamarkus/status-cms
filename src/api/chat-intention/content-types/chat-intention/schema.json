@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chat_intentions",
+  "info": {
+    "singularName": "chat-intention",
+    "pluralName": "chat-intentions",
+    "displayName": "Training (Intention)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string",
+      "private": true
+    },
+    "content": {
+      "type": "text"
+    },
+    "bot_ids": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::bot.bot",
+      "inversedBy": "chat_intention_ids"
+    }
+  }
+}

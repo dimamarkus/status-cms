@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chat_user_infos",
+  "info": {
+    "singularName": "chat-user-info",
+    "pluralName": "chat-user-infos",
+    "displayName": "Training (User Info)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "bot_ids": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::bot.bot",
+      "inversedBy": "chat_user_info_ids"
+    }
+  }
+}

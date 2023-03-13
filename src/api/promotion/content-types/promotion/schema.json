@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promotions",
+  "info": {
+    "singularName": "promotion",
+    "pluralName": "promotions",
+    "displayName": "Training (Promotion)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "maxLength": 400,
+      "private": true
+    },
+    "content": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "bot_ids": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::bot.bot",
+      "inversedBy": "promotion_ids"
+    }
+  }
+}
