@@ -24,7 +24,7 @@ export default ({ env }) => [
             "dl.airtable.com",
             env(
               "AWS_BUCKET_NAME",
-              "yourBucketName.s3.yourRegion.amazonaws.com"
+              "statusmoney-cms.s3.us-west-2.amazonaws.com"
             ),
           ],
           "media-src": [
@@ -34,7 +34,7 @@ export default ({ env }) => [
             "dl.airtable.com",
             env(
               "AWS_BUCKET_NAME",
-              "yourBucketName.s3.yourRegion.amazonaws.com"
+              "statusmoney-cms.s3.us-west-2.amazonaws.com"
             ),
           ],
           upgradeInsecureRequests: null,
