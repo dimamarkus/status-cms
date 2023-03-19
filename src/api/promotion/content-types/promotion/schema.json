@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "description": {
-      "type": "text",
-      "maxLength": 400,
-      "private": true
-    },
     "content": {
       "type": "text"
     },
@@ -33,6 +28,10 @@
       "type": "string",
       "minLength": 2,
       "required": false
+    },
+    "category": {
+      "type": "string",
+      "maxLength": 50
     }
   }
 }
