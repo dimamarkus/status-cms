@@ -132,6 +132,20 @@
       "relation": "manyToMany",
       "target": "api::chat-syntax.chat-syntax",
       "inversedBy": "bot_ids"
+    },
+    "Triggers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.trigger"
+    },
+    "general_training": {
+      "type": "richtext"
+    },
+    "triggers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::trigger.trigger",
+      "mappedBy": "bots"
     }
   }
 }

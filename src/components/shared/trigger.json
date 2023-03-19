@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_triggers",
+  "info": {
+    "displayName": "Custom Trigger",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "phrase": {
+      "type": "string",
+      "maxLength": 144,
+      "minLength": 3,
+      "required": true,
+      "unique": true
+    },
+    "response": {
+      "type": "text",
+      "maxLength": 255,
+      "minLength": 3,
+      "required": true
+    }
+  }
+}
