@@ -103,12 +103,6 @@
       "target": "api::promotion.promotion",
       "mappedBy": "bot_ids"
     },
-    "chat_syntax_id": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::chat-syntax.chat-syntax",
-      "inversedBy": "bot_ids"
-    },
     "chat_user_info_ids": {
       "type": "relation",
       "relation": "manyToMany",
@@ -132,6 +126,12 @@
     },
     "logit_bias": {
       "type": "json"
+    },
+    "chat_syntax_ids": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::chat-syntax.chat-syntax",
+      "inversedBy": "bot_ids"
     }
   }
 }

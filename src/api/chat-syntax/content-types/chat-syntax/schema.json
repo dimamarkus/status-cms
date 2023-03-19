@@ -23,9 +23,9 @@
     },
     "bot_ids": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::bot.bot",
-      "mappedBy": "chat_syntax_id"
+      "mappedBy": "chat_syntax_ids"
     }
   }
 }
