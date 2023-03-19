@@ -109,9 +109,9 @@
       "target": "api::chat-user-info.chat-user-info",
       "mappedBy": "bot_ids"
     },
-    "chat_style_id": {
+    "chat_style_ids": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::chat-style.chat-style",
       "inversedBy": "bot_ids"
     },
