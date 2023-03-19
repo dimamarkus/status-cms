@@ -4,7 +4,7 @@
   "info": {
     "singularName": "trigger",
     "pluralName": "triggers",
-    "displayName": "Training (Triggers)",
+    "displayName": "Trigger",
     "description": ""
   },
   "options": {
@@ -14,21 +14,23 @@
   "attributes": {
     "Phrase": {
       "type": "string",
-      "maxLength": 64,
+      "required": true,
+      "maxLength": 48,
       "minLength": 3,
+      "unique": true
+    },
+    "Response": {
+      "type": "text",
+      "maxLength": 144,
+      "minLength": 3,
+      "unique": false,
       "required": true
     },
-    "Reponse": {
-      "type": "text",
-      "required": true,
-      "maxLength": 140,
-      "minLength": 3
-    },
-    "bots": {
+    "bot_ids": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::bot.bot",
-      "inversedBy": "triggers"
+      "inversedBy": "trigger_ids"
     }
   }
 }

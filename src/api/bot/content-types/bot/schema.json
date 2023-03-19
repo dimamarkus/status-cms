@@ -133,7 +133,7 @@
       "target": "api::chat-syntax.chat-syntax",
       "inversedBy": "bot_ids"
     },
-    "Triggers": {
+    "custom_triggers": {
       "type": "component",
       "repeatable": true,
       "component": "shared.trigger"
@@ -141,11 +141,11 @@
     "general_training": {
       "type": "richtext"
     },
-    "triggers": {
+    "trigger_ids": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::trigger.trigger",
-      "mappedBy": "bots"
+      "mappedBy": "bot_ids"
     }
   }
 }
