@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "chat_settings",
+  "info": {
+    "singularName": "chat-setting",
+    "pluralName": "chat-settings",
+    "displayName": "Chat Settings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "enableSuggestions": {
+      "type": "boolean",
+      "default": true
+    },
+    "defaultBot": {
+      "type": "string",
+      "required": false,
+      "default": "stat",
+      "minLength": 3,
+      "maxLength": 25
+    },
+    "enableSubmissions": {
+      "type": "boolean",
+      "default": false
+    },
+    "suggestionsRequest": {
+      "type": "text"
+    },
+    "submissionsRequest": {
+      "type": "text"
+    },
+    "globalMaxTokens": {
+      "type": "integer"
+    },
+    "defaultSuggestions": {
+      "type": "json"
+    },
+    "enableAssumptions": {
+      "type": "boolean",
+      "default": false
+    },
+    "defaultAssumptions": {
+      "type": "json"
+    }
+  }
+}
