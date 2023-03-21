@@ -146,6 +146,10 @@
       "relation": "manyToMany",
       "target": "api::trigger.trigger",
       "mappedBy": "bot_ids"
+    },
+    "is_featured": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
