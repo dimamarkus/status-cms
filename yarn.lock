@@ -9340,6 +9340,11 @@ std-env@^3.0.1:
   resolved "https://registry.npmjs.org/std-env/-/std-env-3.3.2.tgz"
   integrity sha512-uUZI65yrV2Qva5gqE0+A7uVAvO40iPo6jGhs7s8keRfHCmtg+uB2X6EiLGCI9IgL1J17xGhvoOqSz79lzICPTA==
 
+strapi-plugin-duplicate-button@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-duplicate-button/-/strapi-plugin-duplicate-button-1.1.7.tgz#51a6ebe9a3c2c5142bed3ee06d9c4b34833abde4"
+  integrity sha512-TnDzMovoBXkmJ/rpPTt1QXWLslHZenXAipoePouveSGg50pl4/azCkcSJ0Z2vSXcWpXC0OxJyC3LmlRWbwrdLQ==
+
 stream-chain@2.2.5, stream-chain@^2.2.5:
   version "2.2.5"
   resolved "https://registry.npmjs.org/stream-chain/-/stream-chain-2.2.5.tgz"

@@ -15,6 +15,7 @@ module.exports = ({ env }) => ({
         uploadStream: {},
         delete: {},
       },
+      "duplicate-button": true,
     },
   },
   // ...
