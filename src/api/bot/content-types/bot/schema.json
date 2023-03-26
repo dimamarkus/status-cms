@@ -49,10 +49,10 @@
       "min": 0
     },
     "max_tokens": {
-      "type": "biginteger",
-      "default": "250",
-      "max": "2048",
-      "min": "1"
+      "type": "integer",
+      "default": 250,
+      "max": 500,
+      "required": true
     },
     "top_p": {
       "type": "decimal",
