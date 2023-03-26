@@ -12,14 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Phrase": {
+    "phrase": {
       "type": "string",
       "required": true,
       "maxLength": 48,
       "minLength": 3,
       "unique": true
     },
-    "Response": {
+    "response": {
       "type": "text",
       "maxLength": 144,
       "minLength": 3,

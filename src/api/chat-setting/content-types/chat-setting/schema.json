@@ -12,39 +12,51 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "enableSuggestions": {
+    "enable_suggestions": {
       "type": "boolean",
       "default": true
     },
-    "defaultBot": {
+    "default_bot": {
       "type": "string",
       "required": false,
       "default": "stat",
       "minLength": 3,
       "maxLength": 25
     },
-    "enableSubmissions": {
+    "enable_submissions": {
       "type": "boolean",
       "default": false
     },
-    "suggestionsRequest": {
+    "suggestions_request": {
       "type": "text"
     },
-    "submissionsRequest": {
+    "submissions_request": {
       "type": "text"
     },
-    "globalMaxTokens": {
+    "global_max_tokens": {
       "type": "integer"
     },
-    "defaultSuggestions": {
+    "default_suggestions": {
       "type": "json"
     },
-    "enableAssumptions": {
+    "enable_assumptions": {
       "type": "boolean",
       "default": false
     },
-    "defaultAssumptions": {
+    "default_assumptions": {
       "type": "json"
+    },
+    "api_health": {
+      "type": "enumeration",
+      "enum": [
+        "excellent",
+        "good",
+        "fair",
+        "poor",
+        "unknown"
+      ],
+      "default": "excellent",
+      "required": true
     }
   }
 }
