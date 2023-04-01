@@ -7,7 +7,9 @@ module.exports = ({ env }) => ({
         secretAccessKey: env("AWS_ACCESS_SECRET"),
         region: env("AWS_REGION"),
         params: {
-          Bucket: env("AWS_BUCKET"),
+          // ACL: 'private', // <== set ACL to private
+          // signedUrlExpires: env('AWS_SIGNED_URL_EXPIRES', 60 * 60 * 24 * 7),
+          Bucket: env('AWS_BUCKET'),
         },
       },
       actionOptions: {
