@@ -150,6 +150,10 @@
     "is_featured": {
       "type": "boolean",
       "default": false
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 255
     }
   }
 }
