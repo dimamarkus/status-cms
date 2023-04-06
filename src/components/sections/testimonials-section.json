@@ -1,7 +1,8 @@
 {
   "collectionName": "components_sections_testimonials_sections",
   "info": {
-    "displayName": "Testimonials Section"
+    "displayName": "Testimonials Section",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -17,6 +18,10 @@
       "type": "component",
       "repeatable": true,
       "component": "atoms.quote"
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 255
     }
   }
 }

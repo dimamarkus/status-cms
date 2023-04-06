@@ -23,6 +23,10 @@
       "type": "component",
       "repeatable": false,
       "component": "atoms.links"
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 255
     }
   }
 }

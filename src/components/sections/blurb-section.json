@@ -8,11 +8,11 @@
   "attributes": {
     "heading": {
       "type": "string",
-      "maxLength": 112
+      "maxLength": 64
     },
     "subheading": {
       "type": "string",
-      "maxLength": 225
+      "maxLength": 124
     },
     "image": {
       "type": "media",
@@ -27,6 +27,10 @@
       "type": "component",
       "repeatable": true,
       "component": "atoms.blurb"
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 255
     }
   }
 }

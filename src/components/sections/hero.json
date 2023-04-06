@@ -8,16 +8,20 @@
   "attributes": {
     "heading": {
       "type": "string",
-      "maxLength": 60
+      "maxLength": 64
     },
     "subheading": {
       "type": "string",
-      "maxLength": 110
+      "maxLength": 124
     },
-    "main_cta": {
+    "cta": {
       "type": "component",
       "repeatable": false,
       "component": "atoms.button"
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 255
     }
   }
 }

@@ -19,6 +19,10 @@
       "repeatable": true,
       "component": "atoms.avatar",
       "max": 10
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 255
     }
   }
 }

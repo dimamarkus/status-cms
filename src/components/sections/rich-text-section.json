@@ -1,13 +1,14 @@
 {
   "collectionName": "components_sections_rich_text_sections",
   "info": {
-    "displayName": "Rich Text Section"
+    "displayName": "Rich Text Section",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "heading": {
       "type": "string",
-      "maxLength": 125
+      "maxLength": 64
     },
     "subheading": {
       "type": "string",
@@ -15,6 +16,10 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 255
     }
   }
 }
