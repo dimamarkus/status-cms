@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_heroes",
+  "info": {
+    "displayName": "Hero Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "subheading": {
+      "type": "string",
+      "maxLength": 110
+    },
+    "main_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    }
+  }
+}

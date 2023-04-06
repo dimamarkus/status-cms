@@ -136,7 +136,7 @@
     "custom_triggers": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.trigger"
+      "component": "bots.trigger"
     },
     "general_training": {
       "type": "richtext"

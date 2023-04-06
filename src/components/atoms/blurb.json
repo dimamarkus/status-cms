@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_atoms_blurbs",
+  "info": {
+    "displayName": "Blurb"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "maxLength": 112
+    },
+    "text": {
+      "type": "text",
+      "maxLength": 225
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

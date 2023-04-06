@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_blurb_sections",
+  "info": {
+    "displayName": "Blurb Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "maxLength": 112
+    },
+    "subheading": {
+      "type": "string",
+      "maxLength": 225
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "private": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "blurbs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.blurb"
+    }
+  }
+}

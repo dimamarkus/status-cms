@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_testimonials_sections",
+  "info": {
+    "displayName": "Testimonials Section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "maxLength": 64
+    },
+    "subheading": {
+      "type": "string",
+      "maxLength": 124
+    },
+    "quotes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.quote"
+    }
+  }
+}

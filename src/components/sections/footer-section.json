@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_footer_sections",
+  "info": {
+    "displayName": "Footer Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "maxLength": 64
+    },
+    "subheading": {
+      "type": "string",
+      "maxLength": 124
+    },
+    "primary_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.links"
+    },
+    "secondary_links": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.links"
+    }
+  }
+}

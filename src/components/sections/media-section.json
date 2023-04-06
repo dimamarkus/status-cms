@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_media_sections",
+  "info": {
+    "displayName": "Media Section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "maxLength": 64
+    },
+    "subheading": {
+      "type": "string",
+      "maxLength": 124
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "full_width": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

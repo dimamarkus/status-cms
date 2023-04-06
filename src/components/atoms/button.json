@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_atoms_buttons",
+  "info": {
+    "displayName": "button"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "maxLength": 48
+    },
+    "url": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "accent",
+        "neutral"
+      ]
+    }
+  }
+}
