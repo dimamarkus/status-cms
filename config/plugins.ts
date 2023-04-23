@@ -20,5 +20,10 @@ module.exports = ({ env }) => ({
       "duplicate-button": true,
     },
   },
+  'strapi-plugin-populate-deep': {
+    config: {
+      defaultDepth: 6, // Default is 5
+    }
+  },
   // ...
 });

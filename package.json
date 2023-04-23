@@ -11,7 +11,8 @@
     "mime-types": "^2.1.27",
     "pg": "^8.10.0",
     "pg-connection-string": "^2.5.0",
-    "strapi-plugin-duplicate-button": "^1.1.7"
+    "strapi-plugin-duplicate-button": "^1.1.7",
+    "strapi-plugin-populate-deep": "^2.0.0"
   },
   "name": "status-cms",
   "private": true,
@@ -24,7 +25,7 @@
     "strapi": "strapi"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Dima Markus"
   },
   "strapi": {
     "uuid": "49bf58e3-5b77-472b-9433-38208642a95c",
