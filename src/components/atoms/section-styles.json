@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_atoms_section_styles",
+  "info": {
+    "displayName": "SectionStyles",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "full_width": {
+      "type": "boolean"
+    },
+    "full_height": {
+      "type": "boolean"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "invert_color": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

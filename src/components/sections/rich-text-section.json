@@ -20,6 +20,11 @@
     "description": {
       "type": "text",
       "maxLength": 255
+    },
+    "styles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.section-styles"
     }
   }
 }

@@ -32,12 +32,17 @@
       "type": "text",
       "maxLength": 255
     },
-    "rowLength": {
+    "row_length": {
       "type": "integer",
       "default": 2,
       "required": true,
       "max": 3,
       "min": 1
+    },
+    "styles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.section-styles"
     }
   }
 }
