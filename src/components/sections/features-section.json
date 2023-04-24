@@ -6,10 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "string",
-      "maxLength": 64
-    },
     "subheading": {
       "type": "string",
       "maxLength": 128
@@ -35,7 +31,22 @@
     "styles": {
       "type": "component",
       "repeatable": false,
-      "component": "atoms.section-styles"
+      "component": "molecules.section-styles"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "molecules.section-images"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": false,
+      "component": "molecules.section-actions"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "molecules.section-text"
     }
   }
 }

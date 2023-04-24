@@ -1,7 +1,7 @@
 {
   "collectionName": "components_atoms_section_styles",
   "info": {
-    "displayName": "SectionStyles",
+    "displayName": "Section Styles",
     "description": ""
   },
   "options": {},
@@ -14,24 +14,9 @@
       "type": "boolean",
       "default": false
     },
-    "background_image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "invert_color": {
       "type": "boolean",
       "default": false
-    },
-    "featured_image": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
     }
   }
 }

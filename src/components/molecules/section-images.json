@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_section_images",
+  "info": {
+    "displayName": "Section Images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "featured_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
