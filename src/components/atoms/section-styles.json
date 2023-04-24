@@ -25,6 +25,13 @@
     "invert_color": {
       "type": "boolean",
       "default": false
+    },
+    "featured_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
