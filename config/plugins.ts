@@ -25,5 +25,21 @@ module.exports = ({ env }) => ({
       defaultDepth: 6, // Default is 5
     }
   },
-  // ...
+  "rest-cache": {
+    config: {
+      provider: {
+        name: "memory",
+        options: {
+          max: 32767,
+          maxAge: 3600,
+        },
+      },
+      strategy: {
+        contentTypes: [
+          // list of Content-Types UID to cache
+          "api::landing-page.landing-page",
+        ],
+      },
+    },
+  },
 });
