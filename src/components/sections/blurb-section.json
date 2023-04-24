@@ -31,6 +31,13 @@
     "description": {
       "type": "text",
       "maxLength": 255
+    },
+    "rowLength": {
+      "type": "integer",
+      "default": 2,
+      "required": true,
+      "max": 3,
+      "min": 1
     }
   }
 }
