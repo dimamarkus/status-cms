@@ -6,20 +6,8 @@
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "string",
-      "maxLength": 64
-    },
-    "subheading": {
-      "type": "string",
-      "maxLength": 125
-    },
     "content": {
       "type": "richtext"
-    },
-    "description": {
-      "type": "text",
-      "maxLength": 255
     },
     "styles": {
       "type": "component",

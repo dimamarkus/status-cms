@@ -154,6 +154,13 @@
     "description": {
       "type": "text",
       "maxLength": 255
+    },
+    "embeddings_source": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

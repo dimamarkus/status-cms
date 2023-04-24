@@ -6,14 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "string",
-      "maxLength": 64
-    },
-    "subheading": {
-      "type": "string",
-      "maxLength": 124
-    },
     "primary_links": {
       "type": "component",
       "repeatable": true,
@@ -23,10 +15,6 @@
       "type": "component",
       "repeatable": false,
       "component": "atoms.links"
-    },
-    "description": {
-      "type": "text",
-      "maxLength": 255
     },
     "styles": {
       "type": "component",

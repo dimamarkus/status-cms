@@ -6,14 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "string",
-      "maxLength": 64
-    },
-    "subheading": {
-      "type": "string",
-      "maxLength": 124
-    },
     "media": {
       "type": "media",
       "multiple": false,
@@ -22,15 +14,6 @@
         "images",
         "videos"
       ]
-    },
-    "cta": {
-      "type": "component",
-      "repeatable": false,
-      "component": "atoms.button"
-    },
-    "description": {
-      "type": "text",
-      "maxLength": 255
     },
     "styles": {
       "type": "component",
