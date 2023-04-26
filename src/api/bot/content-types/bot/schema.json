@@ -163,6 +163,12 @@
       "allowedTypes": [
         "files"
       ]
+    },
+    "training_documents": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::training-document.training-document",
+      "mappedBy": "bots"
     }
   }
 }

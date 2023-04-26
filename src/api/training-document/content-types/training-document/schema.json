@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_documents",
+  "info": {
+    "singularName": "training-document",
+    "pluralName": "training-documents",
+    "displayName": "Training (Documents)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "maxLength": 128
+    },
+    "Description": {
+      "type": "text",
+      "maxLength": 255
+    },
+    "Documents": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "bots": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::bot.bot",
+      "inversedBy": "training_documents"
+    }
+  }
+}
