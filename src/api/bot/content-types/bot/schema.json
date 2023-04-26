@@ -156,11 +156,13 @@
       "maxLength": 255
     },
     "embeddings_source": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "private": true,
       "allowedTypes": [
         "files"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }
