@@ -26,6 +26,10 @@
         "images",
         "videos"
       ]
+    },
+    "rich_text": {
+      "type": "richtext",
+      "required": false
     }
   }
 }
