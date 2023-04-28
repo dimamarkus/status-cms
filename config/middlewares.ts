@@ -22,20 +22,20 @@ export default ({ env }) => [
             "data:",
             "blob:",
             "dl.airtable.com",
-            env(
-              "AWS_BUCKET_NAME",
-              "statusmoney-cms.s3.us-west-2.amazonaws.com"
-            ),
+            // current app bucket
+            env("AWS_BUCKET_NAME"),
+            // bucket common for all app
+            "statusmoney-cms.s3.us-west-2.amazonaws.com",
           ],
           "media-src": [
             "'self'",
             "data:",
             "blob:",
             "dl.airtable.com",
-            env(
-              "AWS_BUCKET_NAME",
-              "statusmoney-cms.s3.us-west-2.amazonaws.com"
-            ),
+            // current app bucket
+            env("AWS_BUCKET_NAME"),
+            // bucket common for all app
+            "statusmoney-cms.s3.us-west-2.amazonaws.com",
           ],
           upgradeInsecureRequests: null,
         },
