@@ -21,6 +21,9 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "url": {
+      "type": "string"
     }
   }
 }

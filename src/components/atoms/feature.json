@@ -30,6 +30,9 @@
     "rich_text": {
       "type": "richtext",
       "required": false
+    },
+    "url": {
+      "type": "text"
     }
   }
 }
