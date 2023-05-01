@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_atoms_prices",
+  "info": {
+    "displayName": "Price",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 48
+    },
+    "price": {
+      "type": "string"
+    },
+    "popular": {
+      "type": "boolean"
+    },
+    "features": {
+      "type": "richtext"
+    },
+    "button_text": {
+      "type": "string",
+      "maxLength": 32
+    },
+    "button_url": {
+      "type": "string"
+    }
+  }
+}

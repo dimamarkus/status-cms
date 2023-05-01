@@ -23,7 +23,8 @@
         "sections.team-section",
         "sections.testimonials-section",
         "sections.features-section",
-        "sections.form-section"
+        "sections.form-section",
+        "sections.pricing-section"
       ]
     },
     "title": {
