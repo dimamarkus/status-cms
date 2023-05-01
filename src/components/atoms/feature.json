@@ -32,7 +32,7 @@
       "required": false
     },
     "url": {
-      "type": "text"
+      "type": "string"
     }
   }
 }
