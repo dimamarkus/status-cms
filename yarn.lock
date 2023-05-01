@@ -2126,6 +2126,18 @@
     lodash "4.17.21"
     sift "16.0.1"
 
+"@strapi/plugin-color-picker@^4.10.1":
+  version "4.10.1"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-color-picker/-/plugin-color-picker-4.10.1.tgz#ecc45cc83f74131f6c85bbd00d34471631d64650"
+  integrity sha512-PMb5qvHbrAP/IjlsakuttGG6kHes0h8pk8eq/3O/rWMl3PLfg2wiG/M2zMFdvy0Q0UyVIbI6mEChkBFADvrtAg==
+  dependencies:
+    "@strapi/design-system" "1.6.6"
+    "@strapi/helper-plugin" "4.10.1"
+    "@strapi/icons" "1.6.6"
+    prop-types "^15.7.2"
+    react-colorful "5.6.1"
+    react-intl "6.3.2"
+
 "@strapi/plugin-content-manager@4.10.1":
   version "4.10.1"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-content-manager/-/plugin-content-manager-4.10.1.tgz#c998ab6ccd3e60f7514ba6adeb39577b29b19de0"
@@ -8347,6 +8359,11 @@ rc@1.2.8, rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-colorful@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/react-colorful/-/react-colorful-5.6.1.tgz#7dc2aed2d7c72fac89694e834d179e32f3da563b"
+  integrity sha512-1exovf0uGTGyq5mXQT0zgQ80uvj2PCwvF8zY1RN9/vbJVSjSo3fsB/4L3ObbF7u70NduSiK4xu4Y6q1MHoUGEw==
+
 react-copy-to-clipboard@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/react-copy-to-clipboard/-/react-copy-to-clipboard-5.1.0.tgz#09aae5ec4c62750ccb2e6421a58725eabc41255c"
@@ -9376,6 +9393,11 @@ strapi-plugin-duplicate-button@^1.1.7:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/strapi-plugin-duplicate-button/-/strapi-plugin-duplicate-button-1.1.7.tgz#51a6ebe9a3c2c5142bed3ee06d9c4b34833abde4"
   integrity sha512-TnDzMovoBXkmJ/rpPTt1QXWLslHZenXAipoePouveSGg50pl4/azCkcSJ0Z2vSXcWpXC0OxJyC3LmlRWbwrdLQ==
+
+strapi-plugin-multi-select@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-multi-select/-/strapi-plugin-multi-select-1.1.0.tgz#80085ed81b789dc76901bf8cc172de561131afd7"
+  integrity sha512-h8Ar/BwOyjjBd9xPWtmNC/qrcaUNRtmy9Upkr8BOTY5rg3gvkWgVHhaW/YMB7gENUU8esBHoImb4WdrO4NuNOA==
 
 strapi-plugin-populate-deep@^2.0.0:
   version "2.0.0"
