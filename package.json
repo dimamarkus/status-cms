@@ -1,16 +1,17 @@
 {
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.9.2",
-    "@strapi/plugin-i18n": "^4.9.2",
-    "@strapi/plugin-users-permissions": "^4.9.2",
-    "@strapi/provider-upload-aws-s3": "^4.9.2",
-    "@strapi/strapi": "^4.9.2",
+    "@strapi/plugin-graphql": "^4.10.1",
+    "@strapi/plugin-i18n": "^4.10.1",
+    "@strapi/plugin-users-permissions": "^4.10.1",
+    "@strapi/provider-upload-aws-s3": "^4.10.1",
+    "@strapi/strapi": "^4.10.1",
     "better-sqlite3": "8.3.0",
     "fs-extra": "^11.1.1",
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
     "pg": "^8.10.0",
     "pg-connection-string": "^2.5.0",
+    "strapi-code-themes": "^1.0.2",
     "strapi-plugin-duplicate-button": "^1.1.7",
     "strapi-plugin-populate-deep": "^2.0.0",
     "strapi-plugin-rest-cache": "^4.2.7"
