@@ -22,7 +22,8 @@
         "sections.footer-section",
         "sections.team-section",
         "sections.testimonials-section",
-        "sections.features-section"
+        "sections.features-section",
+        "sections.form-section"
       ]
     },
     "title": {
