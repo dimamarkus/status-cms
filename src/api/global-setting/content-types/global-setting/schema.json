@@ -36,15 +36,25 @@
         "images"
       ]
     },
-    "default_seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "atoms.seo"
-    },
     "primary_color": {
       "type": "customField",
       "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
       "customField": "plugin::color-picker.color"
+    },
+    "default_meta_title": {
+      "type": "string",
+      "maxLength": 128
+    },
+    "default_meta_description": {
+      "type": "text",
+      "maxLength": 255
+    },
+    "default_meta_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
