@@ -115,9 +115,6 @@
       "target": "api::chat-style.chat-style",
       "inversedBy": "bot_ids"
     },
-    "training": {
-      "type": "text"
-    },
     "memory": {
       "type": "integer",
       "default": 5,
@@ -168,6 +165,12 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::training-document.training-document",
+      "mappedBy": "bots"
+    },
+    "landing_pages": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::landing-page.landing-page",
       "mappedBy": "bots"
     }
   }
