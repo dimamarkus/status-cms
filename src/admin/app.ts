@@ -7,6 +7,7 @@ export default {
         "app.components.LeftMenu.navbrand.title": "aBLT",
         "app.components.LeftMenu.navbrand.workplace": "Bot Creator",
         "Auth.form.welcome.title": "Welcome back to aBLT",
+        "Auth.form.welcome.subtitle": "Log in to your account",
         "app.components.HomePage.welcomeBlock.content.again": "Here you can create, train and launch your bots. Get started with the menu on the left.",
         "Content Manager": "Your Bots",
         "global.content-manager": "Your Bots",
