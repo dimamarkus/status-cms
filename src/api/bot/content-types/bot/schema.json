@@ -152,15 +152,6 @@
       "type": "text",
       "maxLength": 255
     },
-    "embeddings_source": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "private": true,
-      "allowedTypes": [
-        "files"
-      ]
-    },
     "training_documents": {
       "type": "relation",
       "relation": "manyToMany",
