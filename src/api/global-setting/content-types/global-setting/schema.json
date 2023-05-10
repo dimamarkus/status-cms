@@ -50,6 +50,14 @@
       "maxLength": 255
     },
     "default_meta_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo_dark": {
       "allowedTypes": [
         "images"
       ],

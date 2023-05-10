@@ -163,6 +163,12 @@
       "relation": "manyToMany",
       "target": "api::landing-page.landing-page",
       "mappedBy": "bots"
+    },
+    "input_group_ids": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::input-group.input-group",
+      "inversedBy": "bot_ids"
     }
   }
 }

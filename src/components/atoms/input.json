@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_atoms_inputs",
+  "info": {
+    "displayName": "Input"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "maxLength": 64
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "number",
+        "currency",
+        "boolean"
+      ],
+      "default": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "input_groups",
+  "info": {
+    "singularName": "input-group",
+    "pluralName": "input-groups",
+    "displayName": "Input Group",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 64
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 255
+    },
+    "category": {
+      "type": "string",
+      "maxLength": 32
+    },
+    "inputs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.input"
+    },
+    "bot_ids": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::bot.bot",
+      "mappedBy": "input_group_ids"
+    }
+  }
+}
