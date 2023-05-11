@@ -1,7 +1,8 @@
 {
   "collectionName": "components_atoms_inputs",
   "info": {
-    "displayName": "Input"
+    "displayName": "Input",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,11 +15,21 @@
       "enum": [
         "text",
         "number",
+        "percent",
         "currency",
-        "boolean"
+        "boolean",
+        "date"
       ],
       "default": "text",
       "required": true
+    },
+    "units": {
+      "type": "string",
+      "maxLength": 24
+    },
+    "hint": {
+      "type": "string",
+      "maxLength": 128
     }
   }
 }
